@@ -1,0 +1,28 @@
+---
+title: "Capstone Project Proposal"
+author: "Joel Wood"
+date: "January 3, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Analasys of Complications and Deaths Due To Surgeries
+
+What is the average complication and death total reported per hospital in Florida? Answering this question would allow patients to choose a hospital in their area with the lowest complication/death and would therefore be considered a better hospital, thoretically. 
+
+## Data
+
+<https://data.medicare.gov/Hospital-Compare/Complications-and-Deaths-Hospital/ynj2-r877>
+
+The data I'm going to use is from a public dataset provided by the government. It includes provider data for the hip/knee complication measure, the Agency for Healthcare Research and Quality (AHRQ) measures of serious complications, and 30-day death rates. The data includes hospitals on a national level.
+
+## Approach
+
+I need to filter out the Floridia hospitals, and then analize the number of complications/deaths per hospital. This would involve finding out the mean complications/deaths per hopital.    
+
+## Deliverables
+
+Deliverables would be code, paper and slide deck.
